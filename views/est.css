@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #BBE4B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1 {
+    color: #2b1346;
+}
+
+.left-login-image {
+    width: 35vw;
+}
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.card-login {
+ width: 60%; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 30px 35px;
+ background:#3b3351;
+ border-radius:20px;
+ box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1 {
+    color: #BBE4B7;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    
+     
+}
+
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+.textfield > label {
+    color: #efe9e956;
+    margin-bottom: 10px;
+
+}
+
+.textfield > input::placeholder {
+    color: #f0ffff94;
+}
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing:3px;
+    color: #2b134b;
+    background: #BBE4B7;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+
+}
+.menu {
+    width: 90%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b134b;
+    text-align: right;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+    text-align: right;
+}
+
+.menu ul li {
+    width: 100px;
+    float: right;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    color: #9CC398;
+    text-align: right;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu a:hover {
+    background-color: #2b1346;
+    color: #ffffff;
+}
+
+.menu ul ul li {
+    float: none;
+}
+h4 {
+    color: #ffffff;
+}
+
+
